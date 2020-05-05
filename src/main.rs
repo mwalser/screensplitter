@@ -33,7 +33,6 @@ fn main() {
             Arg::with_name("monitor-id")
                 .index(1)
                 .help("The ID of the monitor to mirror")
-                .default_value("1")
                 .required(true)
                 .takes_value(true),
         )
